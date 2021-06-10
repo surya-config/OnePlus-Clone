@@ -1,0 +1,42 @@
+.section1 {
+  background-color: #f3f3eb;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: -20px;
+  overflow-x: hidden;
+}
+
+.section1__content {
+  margin-top: 70px;
+}
+
+.section1__content > h1 {
+  width: 70%;
+  font-size: 34px;
+  line-height: 40.8px;
+  color: #111;
+  font-weight: 500;
+}
+
+.section1__content > h3 {
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #111;
+  font-weight: 500;
+}
+
+.section1__leftContainerButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section1__leftContainerButton > a {
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #0099cc;
+}
+
+.section1__leftContainerButton > .MuiSvgIcon-root {
+  color: #0099cc;
+}

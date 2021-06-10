@@ -1,0 +1,94 @@
+.itemContainer {
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.items__row {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 25px 0;
+  padding-bottom: 60px;
+}
+
+.item__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.slide__content1 {
+  flex: 0.4;
+  margin-left: 20%;
+  margin-top: 70px;
+}
+
+.slide__content,
+.slide__content2 {
+  color: white;
+  flex: 0.4;
+  margin-left: 20%;
+  margin-top: 70px;
+}
+
+.slide__content > h1,
+.slide__content1 > h1,
+.slide__content2 > h1 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-family: "Neue Haas Grotesk Text", sans-serif;
+}
+.slide__content > h2,
+.slide__content1 > h2,
+.slide__content2 > h2 {
+  font-size: 18px;
+  line-height: 21.6px;
+}
+
+.slide__contentButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.slide__contentButton:hover .slide__contentButton > .MuiSvgIcon-root {
+  margin-left: 10px;
+}
+
+.slide__contentButton:hover .slide__contentButton > a {
+  text-decoration: underline white;
+}
+
+.slide__content2 h2 > span {
+  text-decoration: line-through;
+}
+
+.slide__contentButton2 {
+  width: 80px;
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.slide__contentButton1 {
+  width: 80px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
